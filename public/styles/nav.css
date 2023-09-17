@@ -1,0 +1,27 @@
+/* nav.css */
+
+nav {
+  height: 120px;
+  width: 100%;
+  background-color: #4056a1;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5em;
+  position: fixed;
+  margin-top: 0;
+  top: 0;
+}
+
+nav span {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+}
+
+.tweet-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}

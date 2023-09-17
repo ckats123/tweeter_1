@@ -1,0 +1,31 @@
+/* header.css */
+
+header {
+  height: 400px;
+  width: 100%;
+  background-color: lightblue;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  padding: 10px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  margin-top: 120px;
+  background-image: url("/images/checkered-light-emboss.jpg");
+}
+
+header h2 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-top: -100px;
+}
+
+header h2 span {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Source Sans Pro", sans-serif;
+}
