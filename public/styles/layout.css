@@ -47,3 +47,15 @@ nav .logo {
 .tweet-button .fas.fa-angle-double-down {
   color: red;
 }
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  background-color: f4f1ec;
+  padding: 20px;
+}
+
+main p,
+main h1,
+main h2 {
+}
