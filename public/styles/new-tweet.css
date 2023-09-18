@@ -1,0 +1,47 @@
+/* new-tweet.css */
+
+.new-tweet {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* form header */
+.new-tweet h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* form label */
+.new-tweet label {
+  font-size: 16px;
+}
+
+.new-tweet textarea {
+  width: 100%;
+  height: 100px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.new-tweet button {
+  background-color: #4056a1;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.new-tweet .counter {
+  float: right;
+  font-size: 14px;
+  color: #999;
+}
