@@ -1,20 +1,22 @@
 /* header.css */
 
 header {
-  height: 400px;
+  height: 700px;
   width: 100%;
   background-color: lightblue;
   justify-content: center;
   align-items: center;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   font-family: "Source Sans Pro", sans-serif;
   color: white;
+  box-sizing: border-box;
   padding: 30px;
-  padding-top: 0px;
+  padding-top: 150px;
   padding-bottom: 40px;
-  margin-top: 120px;
-  background-image: url("/images/checkered-light-emboss.jpg");
+  text-align: center;
+  /* margin-top: 120px; */
+  background-image: url("/images/checkered-light-emboss copy.jpg");
 }
 
 header h2 {
@@ -25,15 +27,11 @@ header h2 {
 }
 
 header h2 span {
-  font-size: 24px;
+  font-size: 48px;
   font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;
 }
 #head{
   margin-top: 60px;
-}
-#name /* . = CLASS # = ID    */{
- position: relative;
- bottom: 1.1em;
 }
 
