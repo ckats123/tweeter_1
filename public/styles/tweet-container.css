@@ -1,0 +1,109 @@
+.recent-tweets-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.tweet-container {
+    background-color: #f4f1ec;
+    background-image: none;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    padding: 15px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.tweet-container:hover {
+    box-shadow: 10px 10px 0 lightgray;
+}
+
+.tweet-header {
+    display: flex;
+    align-items: center;
+}
+
+.tweet-header h2 {
+font-size: 18px;
+font-weight: 100;
+font-family: "Source Sans Pro", sans-serif;
+}
+
+.profile-of-new-tweets{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 70;
+}
+
+.tweet-content {
+    font-size: 18px;
+    font-weight: 200;
+    width: 100%;
+    height: 40px;
+    border-bottom : 3px solid black;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    margin: 0;
+}
+
+.username-of-new-tweets{
+    font-size: 18px;
+    font-weight: 50;
+    font-family: "Source Sans Pro", sans-serif;
+    color: lightgray;
+}
+
+.days-and-logos {
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.x-days-ago {
+    font-size: 15px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+}
+
+.x-days-ago p {
+    margin: 0;
+}
+
+.logos .fa-solid {
+    font-size: 15px;
+    color: #4056a1;
+}
+
+.logos {
+    margin: 0;
+    line-height: 1;
+}
+
+.logos .fa-solid:hover {
+    color: darkgoldenrod;
+}
+
+
+/* 
+.twe {
+    width: 100%;
+    height: 50px;
+    border-bottom : 4px solid black;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    /* resize: none; */
+    /* font-size: 24px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: 600;
+    background-color: #f4f1ec;
+} */ 
+

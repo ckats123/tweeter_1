@@ -1,6 +1,6 @@
 /* header.css */
 
-header {
+#profile-header {
   height: 700px;
   width: 100%;
   background-color: lightblue;
@@ -19,14 +19,14 @@ header {
   background-image: url("/images/checkered-light-emboss copy.jpg");
 }
 
-header h2 {
+#profile-header h2 {
   font-size: 48px;
   font-weight: 600;
   font-family: "Source Sans Pro", sans-serif;
   padding-top: -100px;
 }
 
-header h2 span {
+#profile-header h2 span {
   font-size: 48px;
   font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;

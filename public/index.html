@@ -70,6 +70,14 @@
       type="text/css"
       href="/styles/new-tweet.css"
     />
+
+    <!-- Link tweet-container.css file -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/styles/tweet-container.css"
+    />
+
   </head>
 
   <body>
@@ -81,10 +89,9 @@
         <i class="fas fa-angle-double-down"></i>
       </div>
     </nav>
-    <header>
+    <header id="profile-header">
       <div id="head">
         <img src="/images/profile-hex.png" />
-        <!-- <h2 id = "name">Your Name</h2> -->
       </div>
       <div>
         <h2 id="name">Your <span>Name</span></h2>
@@ -102,10 +109,36 @@
             <output name="counter" class="counter" for="tweet-text"
               >140</output
             >
-            
           </div>
         </form>
-      </section>
+      </section>  
+      <section class="tweet-container">
+      <article class="posted-tweet">
+    <header class="recent-tweets-header">
+        <div class="profile-of-new-tweets">
+
+          <img src="https://i.imgur.com/73hZDYK.png" />
+          <h2>Newton</h2>
+        </div>
+        <div class="username-of-new-tweets">
+            <h2>@SirIsaac</h2>
+        </div>
+    </header>
+    <p class="tweet-content">Hello World!</p>
+    <footer class="days-and-logos">
+        <div class="x-days-ago">
+            <p>10 days ago</p>
+        </div>
+        <div class="logos">
+          <i class="fa-solid fa-retweet"></i>
+          <i class="fa-solid fa-flag"></i>
+          <i class="fa-solid fa-heart"></i>
+
+        </div>
+    </footer>
+</article>
+
+    </section>    
     </main>
   </body>
 </html>
